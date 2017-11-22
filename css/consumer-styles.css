@@ -190,12 +190,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #007bff;
+  color: #428bca;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #0056b3;
+    color: #2a6496;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -2082,10 +2082,10 @@ fieldset[disabled] a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #007bff;
+  color: #428bca;
   background-color: transparent; }
   .btn-link:hover {
-    color: #0056b3;
+    color: #2a6496;
     text-decoration: underline;
     background-color: transparent;
     border-color: transparent; }
@@ -3161,11 +3161,11 @@ tbody.collapse.show {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #007bff;
+  color: #428bca;
   background-color: #fff;
   border: 1px solid #ddd; }
   .page-link:focus, .page-link:hover {
-    color: #0056b3;
+    color: #2a6496;
     text-decoration: none;
     background-color: #e9ecef;
     border-color: #ddd; }
@@ -6380,6 +6380,9 @@ body {
 
 .ff-uma-bold {
   font-family: 'Uma-bold'; }
+
+.text-decoration {
+  text-decoration: underline; }
 
 #page-wrapper {
   min-height: 100%;

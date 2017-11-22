@@ -54,7 +54,7 @@
                                                                     <div class="col-1 d-sm-none"></div>
                                                                     <div class="col-10 col-md-12">
                                                                         Today
-                                                                        <a href="javascript:void(0)" class="change-link">change</a>
+                                                                        <a href="javascript:void(0)" class="change-link text-decoration">change</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
