@@ -9,9 +9,9 @@
                                 <span class="ff-uma-bold">Personalize</span> this eCard
                             </h1>
                             <div class="card border-0 rounded-0 mb-3 mb-lg-4">
-                                <div class="card-body text-center">
+                                <div class="card-body">
                                     <img class="img-fluid mx-auto d-block" src="img/thanksgiving_happy_4_1.jpg" alt="Card image cap">
-                                    <label for="exampleFormControlTextarea1">Enter Your Message Here</label>
+                                    <label class="d-block text-center" for="exampleFormControlTextarea1">Enter Your Message Here</label>
                                     <textarea id="mail-message" class="form-control rounded-0" id="exampleFormControlTextarea1" placeholder="(Enter Your Message Here: 500 Characters Maximum)" maxlength="500"></textarea>
                                     <div class="button-cstm-img mt-3 pt-1">
                                         <button class="outer-img-btn activity" type="submit" id="btn-buyer-step-one">
