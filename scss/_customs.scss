@@ -53,7 +53,7 @@ body {
     	background-image: url(../img/background_tile.png);
 	    background-repeat: repeat-x;
 	    background-position: 50% 0;
-	    height: 89px;
+	    height: 92px;
     }
 	
     .navbar-nav {
@@ -82,6 +82,26 @@ body {
 				display: none;
 			}
 		}
+		.dropdown {
+			
+			.dropdown-item {
+				padding: $dropdown-item-padding-y $dropdown-item-padding-x / 1.2;
+			}
+			&:hover {
+				.dropdown-menu {
+					display: block;
+					margin-top: 0;
+					border-radius: 0;
+
+					.dropdown-item {
+						&:hover {
+							color: $theme-color;
+						    background-color: transparent;
+						}
+					}
+				}
+			}
+		}
 	}
 
 	.navbar-brand-centered {
@@ -99,8 +119,7 @@ body {
 		
 		@media (min-width: 992px) {
 			width: 230px;
-			top: -13px;
-			transform: translate(-50%, 0);
+			
 		}
 
 
@@ -242,6 +261,9 @@ body {
 		    &:hover span {
 				color: $theme-color-red;
 			}
+			&:focus {
+				outline: none;
+			}
 		}
 
 		
@@ -338,4 +360,24 @@ body {
 			}
 		}
 	}
+	.payback-section {
+		.title {
+			@include media-breakpoint-down(sm) {
+				font-size: 18px;
+			}
+		}
+		.send-note {
+			font-size: 10px;
+			font-family: sans-serif;
+		    display: block;
+		    line-height: 12px;
+		    text-align: center;
+
+		    @include media-breakpoint-up(md) {
+		    	font-size: 14px;
+		    	padding-top: 5px;
+			}
+		}
+	}
 }
+

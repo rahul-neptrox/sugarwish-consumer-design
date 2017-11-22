@@ -121,7 +121,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card border-0 rounded-0">
+                                <div class="card border-0 rounded-0 mb-1 mb-md-3">
                                     <div class="card-body py-2 py-md-4">
                                         <div class="clearfix">
                                             <div class="float-left">
@@ -156,6 +156,32 @@
                                                     </div>
                                                 </div>
                                             </dic>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="payback-section">
+                                    <div class="row no-gutters align-items-center justify-content-center">
+                                        <div class="col-3 col-md-2">
+                                            <h2 class="title mb-0 text-right">All set</h2>
+                                        </div>
+                                        <div class="col-2 col-md-2 text-md-right">
+                                            <img src="img/img_arrow.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-7 col-md-6 pl-0">
+                                            <div class="button-cstm-img">
+                                                <div class="button-cstm-img">
+                                                    <button class="outer-img-btn activity" id="btn-send-now" type="submit">
+                                                        <img src="img/default-btn-background.png" class="img-fluid" alt="img-btn">
+                                                        <span class="custom-send-sugarwish-btn">send now</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <!-- <span class="send-note">will be charged to your corporate account</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-7 col-md-6 offset-5 offset-md-4">
+                                            <span class="send-note">will be charged to your corporate account</span>
                                         </div>
                                     </div>
                                 </div>

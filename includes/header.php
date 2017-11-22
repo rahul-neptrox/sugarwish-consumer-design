@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/MyFontsWebfontsKitEmmi.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/MyFontsWebfontsKitUma2.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/MyFontsWebfontsKitUma3.css" media="all" />
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/consumer-styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -28,7 +28,7 @@
                     </button>
                     <div class="navbar-brand-centered">
                         <a class="navbar-brand mr-0" href="#">
-                            <img src="img/Sugarwish-corporate.png" class="img-fluid" alt="logo image">
+                            <img src="img/Sugarwish_Logo.png" class="img-fluid" alt="logo image">
                         </a>
                     </div>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">

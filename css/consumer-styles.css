@@ -6408,7 +6408,7 @@ body {
       background-image: url(../img/background_tile.png);
       background-repeat: repeat-x;
       background-position: 50% 0;
-      height: 89px; } }
+      height: 92px; } }
   .cstm-navbar .navbar-nav {
     text-transform: lowercase; }
     .cstm-navbar .navbar-nav .nav-link, .cstm-navbar .nav-mobile .cstm-vertical-navs .navbar-nav .nav-item .dropdown-item, .nav-mobile .cstm-vertical-navs .cstm-navbar .navbar-nav .nav-item .dropdown-item {
@@ -6422,6 +6422,15 @@ body {
         color: #67c4cb; }
     .cstm-navbar .navbar-nav .dropdown-toggle:after {
       display: none; }
+    .cstm-navbar .navbar-nav .dropdown .dropdown-item {
+      padding: 0.25rem 1.25rem; }
+    .cstm-navbar .navbar-nav .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+      border-radius: 0; }
+      .cstm-navbar .navbar-nav .dropdown:hover .dropdown-menu .dropdown-item:hover {
+        color: #67C4CB;
+        background-color: transparent; }
   .cstm-navbar .navbar-brand-centered {
     width: 112px;
     display: block;
@@ -6436,9 +6445,7 @@ body {
         text-align: center; } }
     @media (min-width: 992px) {
       .cstm-navbar .navbar-brand-centered {
-        width: 230px;
-        top: -13px;
-        transform: translate(-50%, 0); } }
+        width: 230px; } }
     .cstm-navbar .navbar-brand-centered .navbar-brand {
       background-color: #fff;
       padding: 0; }
@@ -6535,6 +6542,8 @@ body {
     cursor: pointer; }
     .button-cstm-img .outer-img-btn.activity:hover span {
       color: #D1232A; }
+    .button-cstm-img .outer-img-btn.activity:focus {
+      outline: none; }
 .button-cstm-img span {
   position: absolute;
   left: 0;
@@ -6592,5 +6601,18 @@ body {
 @media (max-width: 575px) {
   .step2 .form-group.row {
     margin-bottom: 0.3333333333rem; } }
+@media (max-width: 767px) {
+  .step2 .payback-section .title {
+    font-size: 18px; } }
+.step2 .payback-section .send-note {
+  font-size: 10px;
+  font-family: sans-serif;
+  display: block;
+  line-height: 12px;
+  text-align: center; }
+  @media (min-width: 768px) {
+    .step2 .payback-section .send-note {
+      font-size: 14px;
+      padding-top: 5px; } }
 
 /*# sourceMappingURL=consumer-styles.css.map */
