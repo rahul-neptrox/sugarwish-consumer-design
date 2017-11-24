@@ -10,33 +10,28 @@
                                     <h3 class="cstm-card-header text-center ff-uma-bold mt-4 mb-4 mb-md-4">
                                         Billing information
                                     </h3>
-                                    <div class="row">
-                                        <div class="col-md-6 mx-auto">
-                                            <form>
-                                                <div class="form-group">
-                                                    <label for="">
-                                                        first name
-                                                    </label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="exampleInputPassword1">last name</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="exampleInputPassword1">phone number</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                                <div class="button-cstm-img mt-2">
-                                                    <button class="outer-img-btn activity" type="submit" id="btn-buyer-step-one">
-                                                        <img src="img/default-btn-background.png" class="img-fluid" alt="img-btn">
-                                                        <span>Continue Checkout</span>
-                                                    </button>
-                                                </div>
-                                            </form>
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="">
+                                                first name
+                                            </label>
+                                            <input type="text" class="form-control">
                                         </div>
-                                    </div>
-                                    
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1">last name</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1">phone number</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="button-cstm-img mt-2">
+                                            <button class="outer-img-btn activity" type="submit" id="btn-buyer-step-one">
+                                                <img src="img/default-btn-background.png" class="img-fluid" alt="img-btn">
+                                                <span>Continue Checkout</span>
+                                            </button>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>

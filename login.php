@@ -7,11 +7,11 @@
                         <div class="col-lg-11 mx-auto px-md-3 px-lg-2">
                             <div class="">
                                 <div class="">
-                                    <h3 class="cstm-card-header text-center ff-uma-bold mb-4 mb-md-4">
+                                    <h3 class="cstm-card-header text-center ff-uma-bold mt-4 mb-4 mb-md-4">
                                         Login to your account so we can save your draft Sugarwish to your cart.
                                     </h3>
-                                    <div class="row">
-                                        <div class="col-md-6 mx-auto">
+                                    <div class="">
+                                        <div class="">
                                             <form>
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Email address</label>
