@@ -14,6 +14,7 @@ body {
     font-family: $ff-uma-bold;
 }
 
+
 .text-decoration {
     text-decoration: underline;
 }
@@ -494,4 +495,44 @@ body {
             }
         }
 	}
+}
+
+.preview-card-modal {
+
+    .close {
+        background-image: url(../img/fancybox-icons.png);
+            background-position: -40px 0;
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            opacity: 1;
+            position: absolute;
+            top: -15px;
+            right: -15px;
+            outline: none;
+            cursor: pointer;
+    }
+    .detail-content {
+        // font-family: $font-family-sans-serif;
+        font-family: Helvetica, Arial, Verdana, sans-serif;
+        color: #A1A2A3;
+
+        h4 {
+            font-size: 20px;
+        }
+    }
+    .modal-footer {
+        background-color: $theme-color;
+        font-family: Helvetica, Arial, Verdana, sans-serif;
+    }
+}
+
+.add-receiver-modal {
+    background-color: $body-bg; 
+    .close {
+        &.btn_gradient {
+            font-size: 24px;
+            font-weight: 300;
+        }
+    }
 }
